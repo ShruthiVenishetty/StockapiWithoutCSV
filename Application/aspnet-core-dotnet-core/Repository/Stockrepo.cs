@@ -18,7 +18,7 @@ namespace StockAPI.Repository
                 Name = "Dolo 650",
                 ChemicalComposition = new List<string> { "Paracetamol", "Acetaminophen" },
                 TargetAilment = "General",
-                DateOfExpiry = DateTime.Parse("31-12-2022"),
+                DateOfExpiry = DateTime.Parse("2022-12-31"),
                 NumberOfTabletsInStock = 300
             },
             new MedicineStock
@@ -26,7 +26,7 @@ namespace StockAPI.Repository
                 Name = "Orthoherb",
                 ChemicalComposition = new List<string> { "Castor Plant", ",Adulsa","Neem","Guggul"},
                 TargetAilment = "Orthopaedics",
-                DateOfExpiry = DateTime.Parse("26-11-2021"),
+                DateOfExpiry = DateTime.Parse("2021-11-26"),
                 NumberOfTabletsInStock = 190
             },
             
@@ -36,7 +36,7 @@ namespace StockAPI.Repository
                 Name = "Cholecalciferol",
                 ChemicalComposition = new List<string> { "ergocalciferol", "cholecalciferol","22-dihydroergocalciferol" },
                 TargetAilment = "Orthopaedics",
-                DateOfExpiry = DateTime.Parse("10-11-2023"),
+                DateOfExpiry = DateTime.Parse("2023-11-10"),
                 NumberOfTabletsInStock = 200
             },
            
@@ -45,7 +45,7 @@ namespace StockAPI.Repository
                 Name = "Gaviscon",
                 ChemicalComposition = new List<string> { "Magnesium", "Oxide", "Silicon", "Sodium" },
                 TargetAilment = "General",
-                DateOfExpiry = DateTime.Parse("20-08-2022"),
+                DateOfExpiry = DateTime.Parse("2022-08-20"),
                 NumberOfTabletsInStock = 150
             },
             new MedicineStock
@@ -53,7 +53,7 @@ namespace StockAPI.Repository
                 Name = "Hilact",
                 ChemicalComposition = new List<string> { "Pancreatin", "Dimethicone","Polydimethylsiloxane" },
                 TargetAilment = "Gynaecology",
-                DateOfExpiry = DateTime.Parse("11-06-2024"),
+                DateOfExpiry = DateTime.Parse("2024-06-11"),
                 NumberOfTabletsInStock = 400
             },
            
@@ -62,7 +62,7 @@ namespace StockAPI.Repository
                 Name = "Cyclopam",
                 ChemicalComposition = new List<string> { "Dicyclomine", "hydrochloride", "paracetamol" },
                 TargetAilment = "Gynaecology",
-                DateOfExpiry = DateTime.Parse("02-11-2025"),
+                DateOfExpiry = DateTime.Parse("2025-11-02"),
                 NumberOfTabletsInStock = 500
             }
 
